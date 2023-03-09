@@ -1,12 +1,17 @@
 <template>
   <div id="right-section">
-    side
+    <PersonalSection />
+    <SuggestionSection />
   </div>
 </template>
 
 <script>
+import PersonalSection from './PersonalSection.vue';
+import SuggestionSection from './SuggestionSection.vue';
+
 export default {
     name: 'SideSection',
+    components:{PersonalSection, SuggestionSection}
 }
 </script>
 
