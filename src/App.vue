@@ -1,7 +1,6 @@
 <template>
-  <div class="container">
+  <div>
     <BaseHeader />
-    Hello World!
   </div>
 </template>
 
