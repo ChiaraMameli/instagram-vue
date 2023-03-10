@@ -16,6 +16,11 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+
+main {
+  padding-top: 3.5rem;
+  height: 200vh;
+}
 
 </style>

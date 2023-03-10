@@ -1,0 +1,25 @@
+header {
+    height: 3.5rem;
+    padding: 1rem;
+
+    background-color: #FFF;
+    border-bottom: 1px solid $primary_border;
+
+    figure img {
+        height: 2rem;
+    }
+
+    input {
+        border: 1px solid $primary_border;
+    }
+
+    .profile-pic {
+        height: 2rem;
+
+        img{
+            height: 100%;
+            border-radius: 50%;
+            object-fit: contain;
+        }
+    }
+}
